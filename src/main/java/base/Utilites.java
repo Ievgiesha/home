@@ -1,6 +1,6 @@
 package base;
 
-public class Utilites {
+public class Utilites extends BaseTest{
     protected void sleep(long millis) {
         try {
             Thread.sleep(millis);
